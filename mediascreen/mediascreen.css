@@ -1,0 +1,212 @@
+
+@media screen and (max-width: 320px){
+    body{
+        width: 100%;
+    }
+    .social-icons{
+        width: 280px;
+    }
+    .social-icons{
+        display: block;
+    }
+    .about-content h2{
+        font-size: 25px;
+    }
+    .about-content h3{
+        width: fit-content;
+        font-size: 20px;
+    }
+    .about-content blockquote{
+        font-size: 18px;
+    }
+    .subs{
+        display: none;
+    }
+    /* section three */
+}
+
+@media screen and (min-width: 678px){
+    
+    /* section 5 */
+    .contact-middle{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    /* section two */
+    .insta-imgs{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    /* section three */
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* blog section */
+    /* section four */
+    .blog-wrapper-sm{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    /* header and footer */
+    .active{
+        color: var(--color-orange);
+        font-weight: 800;
+    }
+    /* .container{
+        margin-top: ;
+    } */
+    .nav-section{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navBtn{
+        display: none;
+    }
+    .brand-and-navBtn{
+        flex: 0 0 10%;
+        background: none;
+    }
+    .brand-name{
+        color: var(--color-orange);
+        margin-top: 50px;
+    }
+    .top-nav{
+        flex: 0 1 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0s ease;
+        transform: translateY(0);
+        background: transparent;
+        position: absolute;
+        top: 6%;
+        z-index: 1000;
+    }
+    .top-nav ul{
+        display: flex;
+        margin-left: 850px;
+        gap: 20px;
+    }
+    .top-nav u li a{
+       padding-left: 40px;
+    }
+    .top-nav ul a::after{
+        background: var(--color-orange);
+    }
+    .top-nav ul a:hover::after{
+        width: 50px;
+    }
+    .search-icon{
+        display: block;
+        flex: 0 0 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about{
+        margin-top: 0px;
+    }
+    /* section five */
+    .contact-middle{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .contact-bottom{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    /* section one */
+    .header{
+        width: 100%;
+    }
+    .top-nav{
+        width: 60%;
+    }
+    .about{
+        margin-top: 70px;
+    }
+    .about-content h3 .title-block{
+        display: inline-block;
+    }
+    .section-one .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    .sec-one-left{
+        align-self: center;
+    }
+    .work-content{
+        margin-top: 0;
+    }
+    .sec-one-right{
+        height: 100%;
+    }
+    /* section four */
+    .blog-wrapper-lg{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    /* footer */
+}
+
+@media screen and (min-width: 1200px){
+    .header{
+        width: 100%;
+    }
+    .top-nav{
+        width: 80%;
+    }
+    /* footer */
+    .footer-container >div{
+        width: 100%;
+        margin-top: auto;
+        margin-right: auto;
+    }
+    /* section three */
+    .gallery{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 500px){
+    .header{
+        padding-bottom: 30px;
+    }
+    .social-icons{
+        display: block;
+    }
+    .about-content h3{
+        width: 50%;
+    }
+    .about-content blockquote{
+        font-size: 16px;
+        width: 100%;
+    }
+    /* footer */
+    .footer-container >div{
+        width: 100%;
+        margin-top: auto;
+        margin-right: auto;
+    }
+    .subs input{
+        width: 280px;
+    }
+    /* section three */
+}

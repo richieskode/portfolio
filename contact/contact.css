@@ -1,0 +1,99 @@
+
+:root {
+    --color-blue: #007bff;
+    --color-black: #000;
+    --color-indigo: #6610f2;
+    --color-purple: #6f42c1;
+    --color-pink: #e83e8c;
+    --color-red: #dc3545;
+    --color-orange: #fd7e14;
+    --color-yellow: #ffc107;
+    --color-green: #28a745;
+    --color-teal: #20c997;
+    --color-cyan: #17a2b8;
+    --color-light-gray: rgb(225, 216, 216);
+    --color-gray: #6c757d;
+    --color-gray-dark: #343a40;
+    --color-primary: #007bff;
+    --color-secondary: #6c757d;
+    --color-success: #28a745;
+    --color-info: #17a2b8;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-light: #f8f9fa;
+    --color-dark: #000033;
+
+    /* extra color */
+    --dark:#fd7e14;
+    --darkGray:#474b4f;
+    --lightgray:#6b6e70;
+    --lightgreen:#86c232;
+    --darkgreen:#61892f;
+    --overlay:#fd7d14e2;
+    --profile-overlay:#fd7d1482;
+    --transition: all 0.5s ease;
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+    }
+.section-five{
+    margin: auto 40px;
+}
+.section-five .container div{
+    margin: 20px 0;
+}
+.contact-top{
+    text-align: center;
+}
+.contact-top h3{
+    font-size: calc(14px *2); /*this is in rem */
+    /* font-size: 28px; */
+}
+.contact-top p{
+    font-weight: 300;
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-middle div{
+    text-align: center;
+    padding: 25px;
+    background: var(--color-orange);
+    color: var(--color-black);
+    border-radius: var(--border-radius);
+}
+.contact-middle span{
+    display: block;
+}
+.contact-icon{
+    font-size: 30px;
+}
+.contact-middle span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-middle p{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.contact-bottom{
+    margin-top: 50px!important;
+}
+.form input[type = "text"], .form input[type = "email"], .form textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid var(--color-orange);
+    outline: none;
+    border-radius: 5px;
+}
+.contact-bottom .form{
+    padding: 20px 0;
+}

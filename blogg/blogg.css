@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --color-blue: #007bff;
+    --color-black: #000;
+    --color-indigo: #6610f2;
+    --color-purple: #6f42c1;
+    --color-pink: #e83e8c;
+    --color-red: #dc3545;
+    --color-orange: #fd7e14;
+    --color-yellow: #ffc107;
+    --color-green: #28a745;
+    --color-teal: #20c997;
+    --color-cyan: #17a2b8;
+    --color-light-gray: rgb(225, 216, 216);
+    --color-gray: #6c757d;
+    --color-gray-dark: #343a40;
+    --color-primary: #007bff;
+    --color-secondary: #6c757d;
+    --color-success: #28a745;
+    --color-info: #17a2b8;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-light: #f8f9fa;
+    --color-dark: #000033;
+
+    /* extra color */
+    --dark:#fd7e14;
+    --darkGray:#474b4f;
+    --lightgray:#6b6e70;
+    --lightgreen:#86c232;
+    --darkgreen:#61892f;
+    --overlay:#fd7d14e2;
+    --profile-overlay:#fd7d1482;
+    --transition: all 0.5s ease;
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+    }
+
+.section-four{
+    margin: 40px 0;
+}
+.blog{
+    margin: 40px 0;
+}
+.blog-content{
+    padding: 25px;
+    background: var(--color-light);
+}
+.blog span{
+    display: block;
+}
+.badge{
+    background: var(--color-orange);
+    width: 140px;
+    border-radius: 5px;
+    padding: 5px 0;
+    color: var(--color-black);
+    text-align: center;
+    margin-bottom: 8px;
+}
+.misc-info{
+    font-size: 14px;
+    color: var(--color-black);
+    margin-top: 16px;
+}
+.blog-title{
+    font-size: 28px;
+    font-weight: 300;
+}
+.blog-text{
+    font-weight: 300;
+}
+.btn{
+    color: var(--color-black);
+}

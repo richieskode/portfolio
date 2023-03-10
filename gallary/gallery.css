@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --color-blue: #007bff;
+    --color-black: #000;
+    --color-indigo: #6610f2;
+    --color-purple: #6f42c1;
+    --color-pink: #e83e8c;
+    --color-red: #dc3545;
+    --color-orange: #fd7e14;
+    --color-yellow: #ffc107;
+    --color-green: #28a745;
+    --color-teal: #20c997;
+    --color-cyan: #17a2b8;
+    --color-light-gray: rgb(225, 216, 216);
+    --color-gray: #6c757d;
+    --color-gray-dark: #343a40;
+    --color-primary: #007bff;
+    --color-secondary: #6c757d;
+    --color-success: #28a745;
+    --color-info: #17a2b8;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-light: #f8f9fa;
+    --color-dark: #000033;
+
+    /* extra color */
+    --dark:#fd7e14;
+    --darkGray:#474b4f;
+    --lightgray:#6b6e70;
+    --lightgreen:#86c232;
+    --darkgreen:#61892f;
+    --overlay:#fd7d14e2;
+    --profile-overlay:#fd7d1482;
+    --transition: all 0.5s ease;
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+    }
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-light);
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+/* ============main section========= */
+.section-three{
+    margin: 40px 0;
+}
+.gallery-header{
+    /* min-height: 100vh; */
+    background: linear-gradient(rgba(238, 91, 7, 0.9), rgba(238, 91, 7, 0.9)),url("/gallary/gallerygb.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px 0; */
+}
+.gallery-header h1{
+    font-size: 40px;
+}
+.single-img{
+    position: relative;
+    margin: 10px;
+}
+.single-img-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: var(--color-light);
+    padding: 5px 30px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.single-img-content h3{
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
